@@ -1,0 +1,53 @@
+<section class="hero-gradient pt-24 pb-20 md:pt-32 md:pb-28">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+      <div
+        class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left"
+      >
+        <h2 class="text-4xl md:text-5xl font-bold text-primary mb-6">
+          Building Your Vision Into Reality
+        </h2>
+        <p class="text-gray-700 mb-8 text-lg">
+          Innovative construction design solutions tailored to your needs. We
+          combine creativity with engineering excellence to deliver outstanding
+          results.
+        </p>
+        <div
+          class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
+        >
+          <button
+            class="bg-secondary text-white px-8 py-3 rounded-full hover:bg-red-700 transition font-medium"
+            (click)="navigateToContact()"
+          >
+            Our Projects
+          </button>
+          <button
+            class="border-2 border-primary text-primary px-8 py-3 rounded-full hover:bg-primary hover:text-white transition font-medium"
+            (click)="navigateToContact()"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div
+        class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center"
+      >
+        <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+          <div
+            class="relative block w-full bg-white rounded-lg overflow-hidden"
+          >
+            <img
+              class="w-full"
+              src="assets/images/hero-image.png"
+              alt="Hero Image"
+            />
+            <div class="absolute inset-0 bg-primary opacity-20"></div>
+          </div>
+          <div
+            class="absolute -bottom-8 -right-8 w-32 h-32 bg-primary-100 rounded-full opacity-70"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
