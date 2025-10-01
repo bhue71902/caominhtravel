@@ -29,7 +29,8 @@
                 "input": "public"
               },
               "src/_redirects",
-              "src/app-ads.txt"
+              "src/app-ads.txt",
+              "src/google3bbd085ed0964889.html"
             ],
             "styles": [
               "src/styles.scss",
@@ -93,7 +94,8 @@
                 "input": "public"
               },
               "src/_redirects",
-              "src/app-ads.txt"
+              "src/app-ads.txt",
+              "src/google3bbd085ed0964889.html"
             ],
             "styles": [
               "src/styles.scss",
