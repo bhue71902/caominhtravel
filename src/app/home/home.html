@@ -1,52 +1,206 @@
-<section class="hero-gradient pt-24 pb-20 md:pt-32 md:pb-28">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-      <div
-        class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left"
-      >
-        <h2 class="text-4xl md:text-5xl font-bold text-primary mb-6">
-          Building Your Vision Into Reality
-        </h2>
-        <p class="text-gray-700 mb-8 text-lg">
-          Innovative construction design solutions tailored to your needs. We
-          combine creativity with engineering excellence to deliver outstanding
-          results.
+<section class="bg-primary-100 overflow-hidden">
+  <div
+    class="inset-0 bg-gradient-to-r from-primary-500 to-primary-300 opacity-20"
+  ></div>
+  <div class="container mx-auto px-6 py-24 z-10">
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-12 md:mb-0">
+        <h1 class="text-4xl md:text-6xl font-bold text-primary-800 mb-6">
+          Surf the World with <span class="text-primary-500">WanderWave</span>
+        </h1>
+        <p class="text-gray-700 text-lg mb-8">
+          Discover breathtaking destinations and create unforgettable memories
+          with our expertly curated travel experiences.
         </p>
-        <div
-          class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
-        >
+        <div class="flex space-x-4">
           <button
-            class="bg-secondary text-white px-8 py-3 rounded-full hover:bg-red-700 transition font-medium"
             (click)="navigateToContact()"
+            class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-lg font-medium transition duration-300"
           >
-            Our Projects
+            Explore Tours
           </button>
           <button
-            class="border-2 border-primary text-primary px-8 py-3 rounded-full hover:bg-primary hover:text-white transition font-medium"
             (click)="navigateToContact()"
+            class="border-2 border-primary-500 text-primary-500 hover:bg-primary-50 px-6 py-3 rounded-lg font-medium transition duration-300"
           >
             Learn More
           </button>
         </div>
       </div>
+      <div class="md:w-1/2">
+        <img
+          src="assets/images/hero-image.png"
+          alt="Travel image"
+          class="rounded-xl shadow-2xl transform hover:scale-105 transition duration-500"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 bg-white">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-primary-700 mb-4">
+        Featured Destinations
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        Explore our handpicked selection of the world's most incredible places
+        to visit
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Destination 1 -->
       <div
-        class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center"
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300"
       >
-        <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-          <div
-            class="relative block w-full bg-white rounded-lg overflow-hidden"
-          >
-            <img
-              class="w-full"
-              src="assets/images/hero-image.png"
-              alt="Hero Image"
-            />
-            <div class="absolute inset-0 bg-primary opacity-20"></div>
+        <img
+          src="http://static.photos/nature/640x360/101"
+          alt="Bali"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-6">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-xl font-bold text-primary-700">Bali, Indonesia</h3>
+            <span
+              class="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm"
+              >Popular</span
+            >
           </div>
-          <div
-            class="absolute -bottom-8 -right-8 w-32 h-32 bg-primary-100 rounded-full opacity-70"
-          ></div>
+          <p class="text-gray-600 mb-4">
+            Discover the island of gods with its stunning beaches and vibrant
+            culture.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="text-primary-500 font-bold">From $$$</span>
+            <button class="text-primary-500 hover:text-primary-700">
+              <i data-feather="arrow-right"></i>
+            </button>
+          </div>
         </div>
+      </div>
+
+      <!-- Destination 2 -->
+      <div
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+      >
+        <img
+          src="http://static.photos/cityscape/640x360/202"
+          alt="Paris"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-6">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-xl font-bold text-primary-700">Paris, France</h3>
+            <span
+              class="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm"
+              >Romantic</span
+            >
+          </div>
+          <p class="text-gray-600 mb-4">
+            Experience the city of love with its iconic landmarks and exquisite
+            cuisine.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="text-primary-500 font-bold">From $$$</span>
+            <button class="text-primary-500 hover:text-primary-700">
+              <i data-feather="arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Destination 3 -->
+      <div
+        class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+      >
+        <img
+          src="http://static.photos/travel/640x360/303"
+          alt="Safari"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-6">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-xl font-bold text-primary-700">
+              Serengeti, Tanzania
+            </h3>
+            <span
+              class="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm"
+              >Adventure</span
+            >
+          </div>
+          <p class="text-gray-600 mb-4">
+            Witness the great migration in one of Africa's most spectacular
+            wildlife reserves.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="text-primary-500 font-bold">From $$$</span>
+            <button class="text-primary-500 hover:text-primary-700">
+              <i data-feather="arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="py-16 bg-primary-50">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-primary-700 mb-4">
+        Why Choose WanderWave
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        We're committed to making your travel experience exceptional
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div
+        class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-lg transition duration-300"
+      >
+        <div
+          class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+        >
+          <i data-feather="shield" class="text-primary-500 w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-primary-700 mb-2">
+          Trusted Experience
+        </h3>
+        <p class="text-gray-600">
+          With over 15 years in the industry, we know how to create perfect
+          trips.
+        </p>
+      </div>
+      <div
+        class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-lg transition duration-300"
+      >
+        <div
+          class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+        >
+          <i data-feather="globe" class="text-primary-500 w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-primary-700 mb-2">Global Network</h3>
+        <p class="text-gray-600">
+          Access to exclusive experiences through our worldwide local partners.
+        </p>
+      </div>
+      <div
+        class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-lg transition duration-300"
+      >
+        <div
+          class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+        >
+          <i data-feather="heart" class="text-primary-500 w-8 h-8"></i>
+        </div>
+        <h3 class="text-xl font-bold text-primary-700 mb-2">
+          Sustainable Travel
+        </h3>
+        <p class="text-gray-600">
+          We're committed to eco-friendly tourism that benefits local
+          communities.
+        </p>
       </div>
     </div>
   </div>
