@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "caominhtravel": {
+    "daongochung": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/caominhtravel",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -29,8 +30,7 @@
                 "input": "public"
               },
               "src/_redirects",
-              "src/app-ads.txt",
-              "src/google3bbd085ed0964889.html"
+              "src/app-ads.txt"
             ],
             "styles": [
               "src/styles.scss",
@@ -68,10 +68,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "caominhtravel:build:production"
+              "buildTarget": "daongochung:build:production"
             },
             "development": {
-              "buildTarget": "caominhtravel:build:development"
+              "buildTarget": "daongochung:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,8 +94,7 @@
                 "input": "public"
               },
               "src/_redirects",
-              "src/app-ads.txt",
-              "src/google3bbd085ed0964889.html"
+              "src/app-ads.txt"
             ],
             "styles": [
               "src/styles.scss",
