@@ -1,12 +1,7 @@
-google.com, pub-5965765613398032, DIRECT, f08c47fec0942fa0
 google.com, pub-6172905758741898, DIRECT, f08c47fec0942fa0
 
-facebook.com, 658985071204056, DIRECT, c3e20eee3f780d68
-
-pangleglobal.com, 69708, DIRECT
 pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
 
-applovin.com, c8b7d856f4e4e44847b84d6dd2d7dcec, DIRECT
 algorix.co, 60532, RESELLER, 5b394c12fea27a1d
 gamaigroup.com, 423056, RESELLER
 loopme.com, 11303, RESELLER, 6c8d5f95897a5a3b
@@ -31,16 +26,6 @@ thebrave.io, 1234633, RESELLER, c25b2154543746ac
 video.unrulymedia.com, 322585001, RESELLER
 xandr.com, 13799, RESELLER
 xandr.com, 14082, RESELLER
-
-facebook.com, 575680946524596, DIRECT, c3e20eee3f780d68
-facebook.com, 157517135307120, DIRECT, c3e20eee3f780d68
-facebook.com, 717312789206994, DIRECT, c3e20eee3f780d68a
-facebook.com, 1077191049355162, DIRECT, c3e20eee3f780d68
-facebook.com, 665404123959897, DIRECT, c3e20eee3f780d68
-facebook.com, 658985071204056, DIRECT, c3e20eee3f780d68
-facebook.com, 158062881538703, DIRECT, c3e20eee3f780d68
-
-mintegral.com, 24640, DIRECT, 0aeed750c80d6423
 pokkt.com, 7139, RESELLER, c45702d9311e25fd
 appads.in, 107139, RESELLER
 pubmatic.com, 160456, RESELLER, 5d62403b186f2ace
@@ -612,7 +597,6 @@ appnexus.com, 15769, RESELLER, f5ab79cb980f11d1
 smartyads.com, 300045, RESELLER, fd2bde0ff2e62c5d
 video.unrulymedia.com, 645663965, RESELLER
 
-vungle.com,[yourVunglePublisherAccountID],DIRECT,c107d686becd2d77
 152media.info,152M312,RESELLER
 Adform.com,2742,RESELLER
 Pubmatic.com,162882,RESELLER,5d62403b186f2ace
@@ -906,7 +890,6 @@ yeahmobi.com,5135284,RESELLER
 zeta.com,998,RESELLER
 zoomd.com,88478941,RESELLER
 
-unity.com, 2300584, DIRECT, 96cabb5fbdde37a7
 indexexchange.com, 194080, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 194730, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 186684, RESELLER, 50b1c356f2c5c8fc
